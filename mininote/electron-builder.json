@@ -1,0 +1,15 @@
+{
+    "appId": "com.psygreg.Mininote",
+    "files": ["dist-electron", "dist-react"],
+    "icon": "./icon.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "flatpak",
+        "category": "Productivity"
+    },
+    "win": {
+        "target": ["msi"]
+    }
+}
